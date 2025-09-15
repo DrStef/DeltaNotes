@@ -20,7 +20,7 @@ Grok 3 (xAI) excels in complex integral equations and signal processing but stru
 
 ### Weaknesses: Simple Arithmetic and Word Problems
 
-- **Addition (*49**5 + 1*873 + *915* = 386256)**: Misidentified digits due to overcomplicating carryovers.
+- **Addition  $\ast 49 \ast 5 + 1 \ast 873 + \ast 915 \ast = 386256$**, where $\ast$ denotes a missing digit (0--9). Misidentified missing digits due to overcomplicating carryovers.
 - **Division (1558 ÷ 17) in  $\mathbb{N}$**: Miscalculated remainder (16 instead of 11), failing to verify \( 17 \times 91 + 11 = 1558 \).
 - **Cause**: Puzzles demand step-by-step rigor, exposing LLM limitations in error detection and ambiguous phrasing ([Medium: Mathematical Problem Solving](https://medium.com/@htobochnik/mathematical-problem-solving-that-chatgpt-cant-do-a3c83e935c6b)).
 
